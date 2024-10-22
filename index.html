@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TeeSpace</title>
+    <link rel="shortcut icon" type="image/jpg" href="/assets/img/favicon.jpg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+  <body>
+    <header class="teespace-header mt-4 mb-4">
+      <div class="container-xl">
+        <!--header top-->
+        <div
+          class="header-top d-flex justify-content-between align-items-center"
+        >
+          <div class="find-store d-flex align-items-center">
+            <div class="map-icon">
+              <img src="assets/img/icons/map.svg" alt="map" />
+            </div>
+            <div class="map-txt">Find a Store</div>
+          </div>
+          <div class="social-link">
+            <ul
+              class="social-flex list-unstyled d-flex justify-content-center align-items-center"
+            >
+              <li>
+                <a href="#"
+                  ><img
+                    src="assets/img/icons/twittericon.svg"
+                    alt="twittericon"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="assets/img/icons/facebookicon.svg"
+                    alt="facebookicon"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="assets/img/icons/instagramicon.svg"
+                    alt="instagramicon"
+                /></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><img
+                    src="assets/img/icons/youtubeicon.svg"
+                    alt="youtubeicon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!--header center-->
+        <div class="header-center mt-4">
+          <nav class="navbar">
+            <div class="container-fluid">
+              <a href="index.html" class="navbar-brand">
+                <img src="assets/img/icons/logo-black.png" alt="logo" />
+              </a>
+              <form class="d-flex" role="search">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="What are you looking for?"
+                  aria-label="Search"
+                />
+                <button class="btn btn-dark" type="submit">Search</button>
+              </form>
+
+              <div class="help-user d-flex align-items-center">
+                <div class="hot-line d-flex align-items-center">
+                  <div
+                    class="call-logo d-flex align-items-center justify-content-center"
+                  >
+                    <img src="assets/img/icons/phone.svg" alt="phone" />
+                  </div>
+                  <div class="call-details">
+                    <p class="line-num mb-0">
+                      Hotline: <span class="phone-num"> 19008188</span>
+                    </p>
+                    <p class="more-details mb-0">Pickup your order for free</p>
+                  </div>
+                </div>
+
+                <div
+                  class="help-favlinks d-flex justify-content-center align-items-center"
+                >
+                  <div class="user-log">
+                    <a href="#"
+                      ><img src="assets/img/icons/usericon.svg" alt="usericon"
+                    /></a>
+                  </div>
+                  <div class="star-pr">
+                    <a href="#">
+                      <img src="assets/img/icons/staricon.svg" alt="staricon" />
+                      <span class="count-num">0</span>
+                    </a>
+                  </div>
+                  <div class="bag-pr">
+                    <a href="#"
+                      ><img src="assets/img/icons/bagicon.svg" alt="bagicon" />
+                      <span class="count-num">0</span></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+        <div class="header-center mt-4 d-none">
+          <div class="row">
+            <div class="col-2">
+              <div class="teespace-logo">
+                <a href="#">
+                  <img src="assets/img/icons/logo-black.png" alt="logo" />
+                </a>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="search-area">
+                <form class="d-flex" role="search">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="What are you looking for?"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-dark" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+            <div class="col-4">
+              <div class="help-user d-flex align-items-center">
+                <div class="hot-line d-flex align-items-center">
+                  <div
+                    class="call-logo d-flex align-items-center justify-content-center"
+                  >
+                    <img src="assets/img/icons/phone.svg" alt="phone" />
+                  </div>
+                  <div class="call-details">
+                    <p class="line-num mb-0">
+                      Hotline: <span class="phone-num"> 19008188</span>
+                    </p>
+                    <p class="more-details mb-0">Pickup your order for free</p>
+                  </div>
+                </div>
+
+                <div
+                  class="help-favlinks d-flex justify-content-center align-items-center"
+                >
+                  <div class="user-log">
+                    <a href="#"
+                      ><img src="assets/img/icons/usericon.svg" alt="usericon"
+                    /></a>
+                  </div>
+                  <div class="star-pr">
+                    <a href="#">
+                      <img src="assets/img/icons/staricon.svg" alt="staricon" />
+                      <span class="count-num">0</span>
+                    </a>
+                  </div>
+                  <div class="bag-pr">
+                    <a href="#"
+                      ><img src="assets/img/icons/bagicon.svg" alt="bagicon" />
+                      <span class="count-num">0</span></a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--header navbar-->
+        <div class="header-navbar mt-4 mb-4">
+          <nav class="navbar navbar-expand-md">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-4">
+                <li class="nav-item menu-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link" href="#">TeeSpace</a>
+                </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link" href="#">Shop</a>
+                </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link" href="#">Blog </a>
+                </li>
+                <li class="nav-item menu-item">
+                  <a class="nav-link" href="#">Pages</a>
+                </li>
+              </ul>
+              <div class="navbar-text">
+                <img src="assets/img/icons/fireicon.svg" alt="fireicon" />
+              </div>
+              <p class="info-text mb-0">Extra <span>Sale 30% </span>off</p>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!--print section-->
+    <section class="print-section">
+      <div class="container-xl">
+        <div class="print-cover print-pr">
+          <div class="row mt-4 mb-4 gy-3">
+            <div class="col-lg">
+              <div class="print-text text-center">
+                <h1 class="products-title">
+                  Let's configure you own print product
+                </h1>
+                <div class="arrow-img">
+                  <img src="assets/img/icons/arrowicon.svg" alt="" />
+                </div>
+                <p>The easiest way to get your print as you want</p>
+                <button type="button" class="btn btn-link text-center">
+                  Print Your Own
+                </button>
+              </div>
+            </div>
+            <div class="col-lg d-flex justify-content-center flex-column">
+              <div class="top-img justify-content-center d-flex">
+                <div class="top-img-first">
+                  <img src="assets/img/tshirt1.png" alt="" />
+                </div>
+                <div class="top-img-second">
+                  <img src="assets/img/thsirt2.png" alt="" />
+                </div>
+              </div>
+              <div class="btm-img justify-content-center d-flex">
+                <div class="btm-img-first">
+                  <img src="assets/img/tshirt3.png" alt="" />
+                </div>
+                <div class="btm-img-second">
+                  <img src="assets/img/thsirt4.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--category section-->
+    <section class="category-section mb-4 mt-5">
+      <div class="container-xl">
+        <div class="shop-category">
+          <div class="row g-4">
+            <div class="col-6 col-sm-4 col-lg-2 shop-col">
+              <div class="category-img">
+                <a href="#" class="text-decoration-none d-inline-block"
+                  ><img src="assets/img/catetory-31.jpg.png" alt="" />
+                  <p class="category-title">T-shirt <sup>15</sup></p>
+                </a>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2 shop-col">
+              <div class="category-img">
+                <a href="#" class="text-decoration-none d-inline-block"
+                  ><img src="assets/img/catetory-32.jpg.png" alt="" />
+                  <p class="category-title">Long-sleeves <sup>8</sup></p>
+                </a>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2 shop-col">
+              <div class="category-img">
+                <a href="#" class="text-decoration-none d-inline-block"
+                  ><img src="assets/img/catetory-33.jpg.png" alt="" />
+                  <p class="category-title">Sweater <sup>18</sup></p>
+                </a>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2 shop-col">
+              <div class="category-img">
+                <a href="#" class="text-decoration-none d-inline-block"
+                  ><img src="assets/img/catetory-34.jpg.png" alt="" />
+                  <p class="category-title">Hoodies <sup>9</sup></p>
+                </a>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2 shop-col">
+              <div class="category-img">
+                <a href="#" class="text-decoration-none d-inline-block"
+                  ><img src="assets/img/catetory-35.jpg.png" alt="" />
+                  <p class="category-title">Tanktop <sup>6</sup></p>
+                </a>
+              </div>
+            </div>
+            <div class="col-6 col-sm-4 col-lg-2 shop-col">
+              <div class="category-img">
+                <a href="#" class="text-decoration-none d-inline-block"
+                  ><img src="assets/img/catetory-35.jpg.png" alt="" />
+                  <p class="category-title">T-shirt <sup>15</sup></p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--banner section-->
+    <section class="banner-section d-none">
+      <div class="container-xl banner-cover">
+        <div class="row">
+          <div class="col-6 position-relative">
+            <div class="banner-img">
+              <img src="assets/img/banner1.png" alt="banner1" />
+            </div>
+            <div class="banner-text position-absolute">
+              <h2 class="banner-title">Thousands of free templates</h2>
+              <p class="banner-pr">
+                Free and easy way to bring your ideas to life
+              </p>
+              <button type="button" class="more-btn">
+                <span class="btn-txt"> Explore More </span>
+                <img src="assets/img/icons/littlearricon.svg" alt="icon" />
+              </button>
+            </div>
+          </div>
+          <div class="col-6 position-relative">
+            <div class="banner-img">
+              <img src="assets/img/banner2.jpg" alt="banner2" />
+            </div>
+            <div class="banner-text position-absolute">
+              <h2 class="banner-title">Create your unique style</h2>
+              <p class="banner-pr">
+                Free and easy way to create your ideas to life
+              </p>
+              <button type="button" class="more-btn">
+                <span class="btn-txt">Shop Now</span>
+                <img src="assets/img/icons/littlearricon.svg" alt="icon" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--products-section-->
+    <section class="products-section mb-4">
+      <div class="container-xl">
+        <ul class="product-links list-unstyled d-flex justify-content-start">
+          <li class="new-arrival"><a href="#">New Arrivals</a></li>
+          <li class="best-seller"><a href="#">Best Seller</a></li>
+          <li class="sale-pr"><a href="#">Sale</a></li>
+        </ul>
+        <div class="row gy-3">
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="pr-link"
+              ><div class="product-img">
+                <img
+                  src="assets/img/image13.jpg"
+                  alt="image13"
+                  class="img-fluid"
+                />
+              </div>
+              <h4 class="product-title">Zone Sweatshirt</h4>
+              <p class="product-price">$19.95 – $159.95</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="pr-link">
+              <div class="product-img">
+                <img
+                  src="assets/img/image14.jpg"
+                  alt="image14"
+                  class="img-fluid"
+                />
+              </div>
+              <h4 class="product-title">Zoo Men’s t-shirt</h4>
+              <p class="product-price">$14.95 – $119.95</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="pr-link">
+              <div class="product-img">
+                <img
+                  src="assets/img/image15.jpg"
+                  alt="image15"
+                  class="img-fluid"
+                />
+                <div class="hot-sale">Hot</div>
+              </div>
+              <h4 class="product-title">Toddler T-shirt</h4>
+              <p class="product-price">$26.00</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="pr-link">
+              <div class="product-img">
+                <img
+                  src="assets/img/image16.jpg"
+                  alt="image16"
+                  class="img-fluid"
+                />
+                <div class="dis-count">10%</div>
+                <div class="hot-sale btm-sale">Hot</div>
+              </div>
+              <h4 class="product-title">Fine Jersey Tee</h4>
+              <p class="product-price">$19.95 – $159.95</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--hot-section-->
+    <section class="hot-section">
+      <div class="container-xl">
+        <ul class="list-unstyled d-flex justify-content-between">
+          <li class="hot-title"><a href="#">Hot under $39</a></li>
+          <li class="view-link">
+            <a href="#">
+              View All <img src="assets/img/icons/Vector1.svg" alt="vector1" />
+            </a>
+          </li>
+        </ul>
+        <div class="row gy-3">
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="pr-link"
+              ><div class="product-img">
+                <img
+                  src="assets/img/image17.png"
+                  alt="image13"
+                  class="img-fluid"
+                />
+                <div class="dis-count">Sale!</div>
+                <div class="new-sale">New</div>
+              </div>
+              <h4 class="product-title">Adult Quantity Tee</h4>
+              <p class="product-price">$26.00 – $29.00</p>
+            </a>
+            <div class="shirt-color">
+              <a href="#" class="color-blk"></a>
+              <a href="#" class="color-orange"></a>
+              <span><a href="#">+3</a></span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="pr-link">
+              <div class="product-img">
+                <img
+                  src="assets/img/image18.png"
+                  alt="image14"
+                  class="img-fluid"
+                />
+                <div class="dis-count">Sale!</div>
+                <div class="new-sale">New</div>
+              </div>
+              <h4 class="product-title">All-Over-Print Hoodie</h4>
+              <p class="product-price">$26.00 – $29.00</p>
+            </a>
+            <div class="shirt-color">
+              <a href="#" class="color-blk"></a>
+              <a href="#" class="color-orange"></a>
+              <span><a href="#">+3</a></span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="pr-link">
+              <div class="product-img">
+                <img
+                  src="assets/img/image19.png"
+                  alt="image15"
+                  class="img-fluid"
+                />
+                <div class="dis-count">Sale!</div>
+                <div class="new-sale">New</div>
+              </div>
+              <h4 class="product-title">AOP Cut & Sew Tee</h4>
+              <p class="product-price">$26.00 – $29.00</p>
+            </a>
+            <div class="shirt-color">
+              <a href="#" class="color-blk"></a>
+              <a href="#" class="color-orange"></a>
+              <span><a href="#">+3</a></span>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="pr-link">
+              <div class="product-img">
+                <img
+                  src="assets/img/image20.png"
+                  alt="image16"
+                  class="img-fluid"
+                />
+                <div class="dis-count">10%</div>
+                <div class="hot-sale btm-sale">Hot</div>
+              </div>
+              <h4 class="product-title">Fine Jersey Tee</h4>
+              <p class="product-price">$19.95 – $159.95</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--design-section-->
+    <section class="design-section">
+      <div class="container-xl">
+        <div class="design-cover">
+          <h2 class="design-title">How to design and order custom T-shirts</h2>
+          <div class="row gy-3">
+            <div class="col-lg-4 col-md-12 design-flex">
+              <div class="text-item">
+                <p class="active-link">1</p>
+                <p class="text-pr">
+                  Choose from 412 custom products in our catalog
+                </p>
+              </div>
+              <div class="text-item">
+                <p class="active-link unvis-link">2</p>
+                <p class="text-pr">
+                  Customize your design with graphics, text or your own uploaded
+                  images.
+                </p>
+              </div>
+              <div class="text-item">
+                <p class="active-link unvis-link">3</p>
+                <p class="text-pr">
+                  Get your order sent to your door with free standard shipping.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-8 col-md-12">
+              <div class="design-img">
+                <a href="#">
+                  <img
+                    src="assets/img/step-31.png.png"
+                    class="img-fluid"
+                    alt="step"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--free design section-->
+    <section class="freedesign-section">
+      <div class="container-xl">
+        <ul class="list-unstyled d-flex justify-content-between">
+          <li class="freedesign-title">Free design templates</li>
+          <li class="view-link">
+            <a href="#">
+              View All <img src="assets/img/icons/Vector1.svg" alt="vector1" />
+            </a>
+          </li>
+        </ul>
+        <div class="row gy-3">
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="template-link"
+              ><div class="template-img">
+                <img
+                  src="assets/img/collection-31.png.png"
+                  alt="collection-31"
+                  class="img-fluid"
+                />
+              </div>
+              <h4 class="template-title">Astronauts</h4>
+              <p class="template-pr">85 resources</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="template-link">
+              <div class="template-img">
+                <img
+                  src="assets/img/collection-32.png.png"
+                  alt="collection-32"
+                  class="img-fluid"
+                />
+              </div>
+              <h4 class="template-title">Quote that collection</h4>
+              <p class="template-pr">6 resources</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="template-link">
+              <div class="template-img">
+                <img
+                  src="assets/img/collection-33.png.png"
+                  alt="collection-33"
+                  class="img-fluid"
+                />
+              </div>
+              <h4 class="template-title">Art Styles</h4>
+              <p class="template-pr">68 resources</p>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#" class="template-link">
+              <div class="template-img">
+                <img
+                  src="assets/img/collection-all.png"
+                  alt="collection-all"
+                  class="img-fluid"
+                />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--integrate-section-->
+    <section class="integrate-section">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-md-4 col-sm-12">
+            <div class="integrate-txt">
+              <h4 class="integrate-title">We integrate with</h4>
+              <p class="view-link">
+                <a href="#">
+                  And more
+                  <img src="assets/img/icons/Vector1.svg" alt="vector1" />
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-8 col-sm-12">
+            <div class="row">
+              <div class="col-3">
+                <a href="#"
+                  ><div class="partner-img">
+                    <img src="assets/img/spotify.png" alt="spotify" /></div
+                ></a>
+              </div>
+              <div class="col-3">
+                <a href="#"
+                  ><div class="partner-img">
+                    <img src="assets/img/lattice.png" alt="lattice" /></div
+                ></a>
+              </div>
+              <div class="col-3">
+                <a href="#"
+                  ><div class="partner-img">
+                    <img src="assets/img/upwork.png" alt="upwork" /></div
+                ></a>
+              </div>
+              <div class="col-3">
+                <a href="#"
+                  ><div class="partner-img">
+                    <img src="assets/img/dribble.png" alt="dribble" /></div
+                ></a>
+              </div>
+              <div class="col-3">
+                <a href="#"
+                  ><div class="partner-img">
+                    <img src="assets/img/feedly.png" alt="feedly" /></div
+                ></a>
+              </div>
+              <div class="col-3">
+                <a href="#"
+                  ><div class="partner-img">
+                    <img src="assets/img/hopin.png" alt="hopin" /></div
+                ></a>
+              </div>
+              <div class="col-3">
+                <a href="#"
+                  ><div class="partner-img">
+                    <img src="assets/img/amazon.png" alt="amazon" /></div
+                ></a>
+              </div>
+              <div class="col-3">
+                <a href="#"
+                  ><div class="partner-img">
+                    <img src="assets/img/ebay.png" alt="ebay" /></div
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--app section-->
+    <section class="app-section">
+      <div class="container-xl">
+        <diw class="row gy-3">
+          <div class="col-md-6 col-sm-12">
+            <div class="app-img">
+              <a href="#"
+                ><img
+                  src="assets/img/downloadapp.png"
+                  alt="app"
+                  class="img-fluid"
+              /></a>
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="app-img">
+              <a href="#"
+                ><img
+                  src="assets/img/testimonials.png"
+                  alt="testimonials"
+                  class="img-fluid"
+              /></a>
+            </div>
+          </div>
+        </diw>
+      </div>
+    </section>
+    <!--inbox-section-->
+    <section class="inbox-section">
+      <div class="container-xl">
+        <div class="email-container d-flex flex-column mt-5">
+          <h3 class="email-title">
+            Get the latest news, events & more delivered to your inbox.
+          </h3>
+          <div
+            class="input-group my-4 d-flex justify-content-center align-items-center"
+          >
+            <input
+              type="email"
+              class="form-control custom-input"
+              placeholder="Your email address"
+              aria-label="Email address"
+              required
+            />
+            <button class="btn btn-success" type="button">→</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--galery-section-->
+    <section class="galery-section mt-4 mb-4">
+      <div class="container-xl">
+        <div class="row g-4">
+          <div class="col-6 col-sm-4 col-lg-2">
+            <a href="#">
+              <div class="galery-img">
+                <img src="assets/img/gallery-31.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <a href="#">
+              <div class="galery-img">
+                <img src="assets/img/gallery-32.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <a href="#">
+              <div class="galery-img">
+                <img src="assets/img/gallery-33.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <a href="#">
+              <div class="galery-img">
+                <img src="assets/img/gallery-34.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <a href="#">
+              <div class="galery-img">
+                <img src="assets/img/gallery-35.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+          <div class="col-6 col-sm-4 col-lg-2">
+            <a href="#">
+              <div class="galery-img">
+                <img src="assets/img/gallery-35.jpg" alt="" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer class="teespace-footer mt-5">
+      <div class="container-xl">
+        <div class="footer-main">
+          <div class="row d-none">
+            <div class="col-4">
+              <h3 class="footer-title mb-4">
+                Design your next favorite custom shirt
+              </h3>
+              <ul class="social-cover list-unstyled d-flex gap-4">
+                <li class="social-link">
+                  <a href="#">
+                    <img
+                      src="assets/img/icons/twittericon.svg"
+                      alt="twittericon"
+                    />
+                  </a>
+                </li>
+                <li class="social-link">
+                  <a href="#">
+                    <img
+                      src="assets/img/icons/facebookicon.svg"
+                      alt="facebookicon"
+                    />
+                  </a>
+                </li>
+                <li class="social-link">
+                  <a href="#">
+                    <img
+                      src="assets/img/icons/instagramicon.svg"
+                      alt="instagramicon"
+                    />
+                  </a>
+                </li>
+                <li class="social-link">
+                  <a href="#">
+                    <img
+                      src="assets/img/icons/youtubeicon.svg"
+                      alt="youtubeicon"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-8">
+              <div class="row">
+                <div class="col-4">
+                  <div class="contact-link">
+                    <ul class="link-cover list-unstyled">
+                      <li class="link-title">Get in touch</li>
+                      <li class="link-item">
+                        <a href="mailto:hello@teespace.io">hello@teespace.io</a>
+                      </li>
+                      <li class="link-item">
+                        <a href="tel:+02 036 038 3996">+02 036 038 3996</a>
+                      </li>
+                      <li class="link-item">
+                        <a href="https://maps.app.goo.gl/P4bMYChFNSvcNyMt7"
+                          >3665 Paseo Place, Suite 0960 San Diego</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <ul class="link-cover list-unstyled">
+                    <li class="link-title">Infomation</li>
+
+                    <li class="link-item"><a href="#">About Us</a></li>
+                    <li class="link-item"><a href="#">Our Blog</a></li>
+                    <li class="link-item"><a href="#">Start a Return</a></li>
+                    <li class="link-item"><a href="#">Contact Us</a></li>
+                    <li class="link-item"><a href="#">Shipping FAQs</a></li>
+                  </ul>
+                </div>
+                <div class="col-4">
+                  <ul class="link-cover list-unstyled">
+                    <li class="link-title">Useful Links</li>
+
+                    <li class="link-item"><a href="#">My Account</a></li>
+                    <li class="link-item"><a href="#">Shipping</a></li>
+                    <li class="link-item"><a href="#">Contact & Support</a></li>
+                    <li class="link-item"><a href="#">All Products</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <h3 class="footer-title mb-4">
+                Design your next favorite custom shirt
+              </h3>
+              <ul class="social-cover list-unstyled d-flex gap-4">
+                <li class="social-link">
+                  <a href="#">
+                    <img
+                      src="assets/img/icons/twittericon.svg"
+                      alt="twittericon"
+                    />
+                  </a>
+                </li>
+                <li class="social-link">
+                  <a href="#">
+                    <img
+                      src="assets/img/icons/facebookicon.svg"
+                      alt="facebookicon"
+                    />
+                  </a>
+                </li>
+                <li class="social-link">
+                  <a href="#">
+                    <img
+                      src="assets/img/icons/instagramicon.svg"
+                      alt="instagramicon"
+                    />
+                  </a>
+                </li>
+                <li class="social-link">
+                  <a href="#">
+                    <img
+                      src="assets/img/icons/youtubeicon.svg"
+                      alt="youtubeicon"
+                    />
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-12 col-md-8">
+              <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                  <div class="contact-link">
+                    <ul class="link-cover list-unstyled">
+                      <li class="link-title">Get in touch</li>
+                      <li class="link-item">
+                        <a href="mailto:hello@teespace.io">hello@teespace.io</a>
+                      </li>
+                      <li class="link-item">
+                        <a href="tel:+02 036 038 3996">+02 036 038 3996</a>
+                      </li>
+                      <li class="link-item">
+                        <a href="https://maps.app.goo.gl/P4bMYChFNSvcNyMt7"
+                          >3665 Paseo Place, Suite 0960 San Diego</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                  <ul class="link-cover list-unstyled">
+                    <li class="link-title">Information</li>
+                    <li class="link-item"><a href="#">About Us</a></li>
+                    <li class="link-item"><a href="#">Our Blog</a></li>
+                    <li class="link-item"><a href="#">Start a Return</a></li>
+                    <li class="link-item"><a href="#">Contact Us</a></li>
+                    <li class="link-item"><a href="#">Shipping FAQs</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4">
+                  <ul class="link-cover list-unstyled">
+                    <li class="link-title">Useful Links</li>
+                    <li class="link-item"><a href="#">My Account</a></li>
+                    <li class="link-item"><a href="#">Shipping</a></li>
+                    <li class="link-item"><a href="#">Contact & Support</a></li>
+                    <li class="link-item"><a href="#">All Products</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="footer-btm d-flex justify-content-between align-items-center"
+        >
+          <div class="footer-btm-terms">
+            <p>© 2024 Tural Sadixov</p>
+            <p>
+              <a href="#">Terms & Conditions</a> <span> | </span>
+              <a href="#">Privacy Policy</a>
+            </p>
+          </div>
+          <div class="footer-btm-pay">
+            <a href="#"
+              ><img
+                src="assets/img/footer-payment-method.png"
+                alt="footer-payment-method"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
+</html>
